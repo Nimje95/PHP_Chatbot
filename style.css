@@ -1,0 +1,26 @@
+body {
+    background: rgb(178,15,242);
+    background: linear-gradient(90deg, rgba(178,15,242,1) 0%, rgba(141,12,227,1) 48%, rgba(192,12,227,1) 100%);
+}
+.root {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+h1 {
+    font-family: "poppins", sans-serif;
+}
+.skewed {
+    width: 60em;
+    padding: 10px;
+    color: #f1f1f1;
+    display: flex;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    margin: 2em 0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
